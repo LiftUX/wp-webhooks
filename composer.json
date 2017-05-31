@@ -1,0 +1,29 @@
+{
+    "name": "liftux/wp-webhooks",
+    "description": "Provides an infrastructure to register webhooks to send/receive.",
+    "license": "GPL2+",
+    "authors": [
+        {
+            "name": "Christian Chung",
+            "email": "christian@liftux.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/liftux/plugins-core.git"
+      }
+    ],
+    "require": {
+      "liftux/plugins-core": "dev-php7"
+    },
+    "require-dev": {
+        "lucatume/wp-browser": "^1.19",
+        "codeception/specify": "^0.4.6",
+        "codeception/verify": "^0.3.3"
+    },
+    "autoload": {
+      "classmap": ["src/"]
+    }
+}
