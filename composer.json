@@ -17,7 +17,8 @@
       }
     ],
     "require": {
-      "liftux/plugins-core": "dev-php7"
+		"composer/installers": "~1.0",
+		"liftux/plugins-core": "dev-php7"
     },
     "require-dev": {
         "lucatume/wp-browser": "^1.19",
